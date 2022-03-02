@@ -8,7 +8,16 @@ Open the terminal and do the following:
 
 
 ## Task 2 Look for an API you can use 
-Look for an API you can use to make a fetch or axios call to this API. 
+Look for an API you can use to make a fetch or axios call to this API.
+
+Some examples : 
+
+- Cat Facts : https://catfact.ninja/fact
+- Coindesk  : https://api.coindesk.com/v1/bpi/currentprice.json
+- Random Dog images      : https://dog.ceo/api/breeds/image/random 
+- Random user : https://randomuser.me/api/ 
+
+Feel free to choose an API you like. 
 
 ## Task 3 Set up `UseEffect` 
 Set up `UseEffect` inside the HomePage. 
