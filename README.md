@@ -16,7 +16,7 @@ Example:
 
  ```javascript
     useEffect(() => {
-        //let's make a call for a random image 
+        
 
     },[])
  ```
@@ -27,13 +27,31 @@ You can use axios or fetch API.
 Example axios :
  ```javascript
     const loadData = async () => {
-        const res = await axios.get('https://linktoapi.com/api)
+        const res = await axios.get('https://linktoapi.com/api')
 
         setState(res.data);
     }
  ```
 
+ Example fetch: 
+  ```javascript
+    const loadData = async () => {
+        const res = await axios.get('https://linktoapi.com/api')
+
+        setState(res.data);
+
+        fetch('https://linktoapi.com/api'')
+        .then((res) => res.json())
+        .then((data) => {
+            console.log("the data is ", data)
+             setState(data);
+        })
+    }
+ ```
+
 ## Task 5 Display the data you fetched 
 Display the data you fetched making use of `useState`
+
+
 
 
