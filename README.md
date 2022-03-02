@@ -35,12 +35,8 @@ Example axios :
 
  Example fetch: 
   ```javascript
-    const loadData = async () => {
-        const res = await axios.get('https://linktoapi.com/api')
-
-        setState(res.data);
-
-        fetch('https://linktoapi.com/api'')
+    const loadData = () => {
+        fetch('https://linktoapi.com/api')
         .then((res) => res.json())
         .then((data) => {
             console.log("the data is ", data)
