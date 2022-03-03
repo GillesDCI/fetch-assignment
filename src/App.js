@@ -4,7 +4,6 @@ function App() {
   return (
     <>
     <BrowserRouter>
-      <NavigationBar />
        <Routes> {/* Our routes go inside here */}
           {/* the path of our route and the element that corresponds with it */}
          <Route path="/" element={<Homepage />} />
